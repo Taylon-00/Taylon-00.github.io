@@ -1,16 +1,20 @@
-function adicionarFilme() {
-    var campoFilmeFavorito = document.querySelector('#filme')
-    var filmeFavorito = campoFilmeFavorito.value
-    if (filmeFavorito.endsWith('.jpg')) {
-        listarFilmesNaTela(filmeFavorito)
-    } else {
-        alert("Imagem inválida")
-    }
-    campoFilmeFavorito.value = ""
-}
-
-function listarFilmesNaTela(filme) {
-    var listaFilmes = document.querySelector('#listaFilmes')
-    var elementoFilme = "<img src=" + filme + ">"
-    listaFilmes.innerHTML = listaFilmes.innerHTML + elementoFilme
-}
+ <?php 
+    $linguagem = $_POST['lingua'];
+    switch($linguagem){
+        case 'PHP':
+         echo "PHP é a mais foda mesmo!";
+         break;
+        case 'JS':
+         echo "JavaScript? Junto com PHP é perfeita!";
+         break;
+        case 'C':
+         echo "C eu acho difícil!";
+         break;
+        case 'Python':
+         echo "Python é fácil e divertida!";
+         break;
+        default:
+         echo "Não conheço essa!";
+       }
+    
+    ?>
