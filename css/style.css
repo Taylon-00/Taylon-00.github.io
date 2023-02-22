@@ -11,6 +11,9 @@ body {
 /* TABELA DE CONTROLE DE TONER */
 table {
     border-style: hidden;
+    cellpadding="10" 
+    cellspacing="5" 
+    bordercolor="darkblue">
 }
 thead {
   background-color:  #595c58fa;
@@ -19,7 +22,7 @@ thead {
 td {
   padding: 5px;
 }
-th.cor1 {
+td.cor1 {
          background-color:#000000;
          color: #ffffff;
 
