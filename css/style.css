@@ -11,10 +11,7 @@ body {
 /* TABELA DE CONTROLE DE TONER */
 table {
     border-style: hidden;
-    cellpadding="10" 
-    cellspacing="5" 
-    bordercolor="darkblue">
-}
+}    
 thead {
   background-color:  #595c58fa;
   color: #fffffffa;
@@ -25,7 +22,16 @@ td {
 td.cor1 {
          background-color:#000000;
          color: #ffffff;
-
 }
-
-
+td.cor2 {
+        background-color:#ffd900;
+        color: #000000;
+}
+td.cor3 {
+        background-color:#e100ff;
+        color: #000000;
+}
+td.cor4 {
+         background-color:#00ffc8;
+         color: #000000;       
+}
