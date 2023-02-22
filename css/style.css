@@ -7,6 +7,16 @@ h1 {
 body {
      background: #c09f34;
  }
+/* FORMATAÇÃO DO MENU */
+nav#menu ul {
+     list-style: none;
+     text-transform: uppercase;
+
+
+
+
+
+}
 
 /* TABELA DE CONTROLE DE TONER */
 table {
