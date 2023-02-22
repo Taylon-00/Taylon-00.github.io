@@ -13,7 +13,8 @@ table {
     border-style: hidden;
 }
 thead {
-  background-color: #595c58fa;
+  background-color:  #595c58fa;
+  color: #fffffffa;
 }
 td {
   padding: 5px;
