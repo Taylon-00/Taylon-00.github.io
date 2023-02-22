@@ -7,5 +7,14 @@ h1 {
 body {
      background: #056aec;
  }
-
+/* TABELA DE CONTROLE DE TONER */
+table {
+    border-style: hidden;
+}
+thead {
+  background-color: #32a827fa;
+}
+td {
+  padding: 5px;
+}
 
