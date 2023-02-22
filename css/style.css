@@ -8,15 +8,24 @@ body {
      background: #c09f34;
  }
 /* FORMATAÇÃO DO MENU */
+nav#menu {
+     display: block;
+}
 nav#menu ul {
      list-style: none;
      text-transform: uppercase;
+     position: absolute;
+     top: -20px;
+     left: 300px;
 }
 nav#menu li {
      display: inline-block;
      background-color: #ffffff;
-     padding: 5px;
+     padding: 10px;
      margin: 2px;
+}
+nav#menu h1 {
+     display: none;
 }
 
 /* TABELA DE CONTROLE DE TONER */
