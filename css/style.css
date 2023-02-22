@@ -5,14 +5,15 @@ h1 {
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
  }
 body {
-     background: #a5c4a2fa;
+     background: #99d494fa;
  }
+
 /* TABELA DE CONTROLE DE TONER */
 table {
     border-style: hidden;
 }
 thead {
-  background-color: #83e77afa;
+  background-color: #595c58fa;
 }
 td {
   padding: 5px;
