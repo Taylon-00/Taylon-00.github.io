@@ -5,11 +5,9 @@ h1 {
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
  }
 body {
-     background: #ffffff;
+     background: #e9e7de;
  }
-div#container {
-     top: -20px
-}
+
 /* FORMATAÇÃO DO MENU */
 nav#menu {
      display: block;
@@ -19,7 +17,7 @@ nav#menu ul {
      text-transform: uppercase;
      position: absolute;
      top: -20px;
-     right: 100px;
+     left: 400px;
 }
 nav#menu li {
      display: inline-block;
