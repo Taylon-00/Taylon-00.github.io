@@ -7,6 +7,9 @@ h1 {
 body {
      background: #ffffff;
  }
+div#container {
+     top: -20px
+}
 /* FORMATAÇÃO DO MENU */
 nav#menu {
      display: block;
@@ -16,7 +19,7 @@ nav#menu ul {
      text-transform: uppercase;
      position: absolute;
      top: -20px;
-     right: 400px;
+     right: 500px;
 }
 nav#menu li {
      display: inline-block;
