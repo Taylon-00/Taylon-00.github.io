@@ -8,7 +8,10 @@ body {
      background: #e9e7de;
  }
 \* logo no canto superior */
+a.canto {
+     top: -20
 
+}
 
 /* FORMATAÇÃO DO MENU */
 nav#menu {
@@ -19,7 +22,7 @@ nav#menu ul {
      text-transform: uppercase;
      position: absolute;
      top: -20px;
-     right: 50px;
+     right: 30px;
 }
 nav#menu li {
      display: inline-block;
