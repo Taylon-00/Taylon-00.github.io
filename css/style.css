@@ -19,7 +19,7 @@ nav#menu ul {
      text-transform: uppercase;
      position: absolute;
      top: -20px;
-     right: 500px;
+     right: 100px;
 }
 nav#menu li {
      display: inline-block;
