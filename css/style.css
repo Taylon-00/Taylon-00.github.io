@@ -16,8 +16,8 @@ nav#menu ul {
      list-style: none;
      text-transform: uppercase;
      position: absolute;
-     top: -20px;
-     right: 600px;
+     top: -15px;
+     right: 800px;
 }
 nav#menu li {
      display: inline-block;
