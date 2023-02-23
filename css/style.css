@@ -44,6 +44,7 @@ nav#menu a:hover {
 /* TABELA DE CONTROLE DE TONER */
 table {
     border-style: hidden;
+    text-align: center;
 }    
 thead {
   background-color:  #595c58fa;
