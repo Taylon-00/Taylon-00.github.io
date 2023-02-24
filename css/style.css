@@ -8,7 +8,7 @@ body {
      background: #e9e7de;
  }
 \* logo no canto superior */
-a#canto {
+#canto {
      top: -10px;
      left: 300px;
 
@@ -51,6 +51,7 @@ nav#menu a:hover {
 table {
     border-style: hidden;
     text-align: center;
+    text-transform: uppercase;
 }    
 thead {
   background-color:  #595c58fa;
