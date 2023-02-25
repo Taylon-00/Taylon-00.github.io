@@ -82,5 +82,6 @@ footer#rodape {
 }
 footer#rodape p {
          text-align: center;
+         top: 100px;
   
 }
