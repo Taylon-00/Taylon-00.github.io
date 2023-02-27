@@ -1,26 +1,17 @@
-
-<?php 
-	ob_start();
-	require 'connection.php';
-?>
+<!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf8">
-		<title>Form</title>
-		<link rel="stylesheet" href="css/style.css">
-		<link  rel="script" href="registration.html"/>
-	</head>
-	
-	<body>
-		<html lang="pt-br">
+<?php 
+    ob_start();
+    require 'connection.php';
+?>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+      <meta charset="utf8">
+      <title>Form</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="script" href="registration.html"/>
 </head>
 <body>
-    <form action="form.php" method="post">
+     <form action="form.php" method="post">
         <fieldset>
             <legend>Formulário</legend>
             <label for="impressora">Impressora Relacionada ao Toner</label><br>
@@ -35,14 +26,8 @@
             <input type="datetime-local" name="data-hora"/>
 	    <input type="submit" name="env"
         </fieldset>
-    </form>
-
-    
-
+     </form>
 </body>
-</html>
-
-	</body>
 </html>
 <?php 
 	ob_end_flush();
