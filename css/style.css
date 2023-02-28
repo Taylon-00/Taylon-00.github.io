@@ -52,6 +52,7 @@ table {
     border-style: hidden;
     text-align: center;
     text-transform: uppercase;
+    box-shadow: 2px 2px 10px;
 }    
 thead {
   background-color:  #595c58fa;
