@@ -9,9 +9,9 @@ body {
  }
 \* logo no canto superior */
 #canto {
-     top: -10px;
+     top: 0px;
      left: 300px;
-     Margin: 0px;
+     
 
 }
 
