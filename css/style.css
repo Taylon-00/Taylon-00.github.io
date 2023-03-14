@@ -9,7 +9,7 @@ body {
  }
 \* logo no canto superior */
 #canto {
-     top: 20px;
+     top: -10px;
      left: 300px;
      
 
