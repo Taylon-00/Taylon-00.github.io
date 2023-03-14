@@ -9,10 +9,11 @@ body {
  }
 \* logo no canto superior */
 #canto {
-     top: -10px;
-     left: 300px;
-     
-
+     list-style: none;
+     text-transform: uppercase;
+     position: absolute;
+     top: -20px;
+     right: 30px;
 }
 
 /* FORMATAÇÃO DO MENU */
