@@ -11,20 +11,26 @@
       <link rel="script" href="registration.html"/>
 </head>
 <body>
-     <form action="mailto:francisco.taylon@vicegov.ce.gov.br" method="post">
+     <form action="form.html" method="post">
         <fieldset>
 		<legend><b>Cadastro de Toner</b></legend>
             <label for="impressora">Impressora Relacionada ao Toner</label><br>
             <select name="select">
-            <option value="oki-es4172lp mfp">OKI-ES4172LP MFP</option>
-            <option value="oki-mc573" selected>OKI-MC573</option>
-            <option value="xerox-workcentre 6605dn">XEROX-WORKCENTRE 6605DN</option>
-            </select><br>		
+                     <optgroup label="IMPRESSORA MANOCROMÁTICA">
+                  <option value="oki-es4172lp mfp">OKI-ES4172LP MFP</option>
+		</optgroup>
+	             <optgroup label="IMPRESOORA COLORIDA">
+	          <option value="oki-mc573" selected>OKI-MC573</option>
+		</optgroup>
+		     <optgroup label="IMPRESSORA COLORIDA">
+	          <option value="xerox-workcentre 6605dn">XEROX-WORKCENTRE 6605DN</option>
+	       </optgroup>    
+	    </select><br>		
             <label for="toner">Toner</label><br>
             <input type="color" name="yellow" placeholder="Cor do Toner"><br><br>
 	    <label for="quantidade">Quantidade de Toner</label><br>
             <input type"number" name="number" min="0" max="100"/>
-	    <label for="data e hora">Data e Hora</label><br>
+	    <label for="data e hora">Data e Hora</label><br><br>
             <input type="datetime-local" name="data-hora"/>
 	    <input type="submit" name="env"/><br>
         </fieldset>
